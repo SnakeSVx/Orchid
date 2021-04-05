@@ -16,6 +16,9 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: 8
+          server-id: ossrh
+          server-username: MAVEN_USERNAME
+          server-password: MAVEN_PASSWORD
       - name: Publish package
         run: |
           ./gradlew assemble publishToMavenLocal publish -PorchidEnvironment=prod -Prelease -Pversion=$PROJECT_VERSION
@@ -24,11 +27,16 @@ jobs:
           MAVEN_USERNAME: ${{secrets.OSSRH_USERNAME }}
           MAVEN_PASSWORD: ${{secrets.OSSRH_TOKEN }}
           PROJECT_VERSION: ${{ github.event.release.tag_name }}
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages
+          folder: docs/build/docs/orchid
       - name: Publish maven
         run: |
           cd buildSrc/orchidMavenPlugin
           ./mvnw versions:set -DnewVersion=$PROJECT_VERSION
-          ./mvnw deploy
+          ./mvnw --batch-mode deploy
         env:
           MAVEN_USERNAME: ${{secrets.OSSRH_USERNAME }}
           MAVEN_PASSWORD: ${{secrets.OSSRH_TOKEN }}
