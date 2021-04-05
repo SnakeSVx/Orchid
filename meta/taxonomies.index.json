@@ -1,0 +1,141 @@
+{
+  "ownKey": "taxonomies",
+  "childrenPages": {
+    "news": {
+      "ownKey": "news",
+      "ownPages": [{
+        "reference": {
+          "path": "news",
+          "baseUrl": "/",
+          "fileName": "",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "/news",
+          "title": "News"
+        },
+        "description": "",
+        "title": "News",
+        "content": ""
+      }]
+    },
+    "themes": {
+      "ownKey": "themes",
+      "ownPages": [{
+        "reference": {
+          "path": "themes",
+          "baseUrl": "/",
+          "fileName": "",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "/themes",
+          "title": "Themes"
+        },
+        "description": "",
+        "title": "Themes",
+        "content": ""
+      }]
+    },
+    "plugins": {
+      "ownKey": "plugins",
+      "ownPages": [{
+        "reference": {
+          "path": "plugins",
+          "baseUrl": "/",
+          "fileName": "",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "/plugins",
+          "title": "Plugins"
+        },
+        "description": "",
+        "title": "Plugins",
+        "content": ""
+      }]
+    },
+    "bundles": {
+      "ownKey": "bundles",
+      "ownPages": [{
+        "reference": {
+          "path": "bundles",
+          "baseUrl": "/",
+          "fileName": "",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "/bundles",
+          "title": "Bundles"
+        },
+        "description": "",
+        "title": "Bundles",
+        "content": ""
+      }]
+    },
+    "showcase": {
+      "ownKey": "showcase",
+      "ownPages": [{
+        "reference": {
+          "path": "showcase",
+          "baseUrl": "/",
+          "fileName": "",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "/showcase",
+          "title": "Showcase"
+        },
+        "description": "",
+        "title": "Showcase",
+        "content": ""
+      }]
+    },
+    "categories": {
+      "ownKey": "categories",
+      "ownPages": [{
+        "reference": {
+          "path": "categories",
+          "baseUrl": "/",
+          "fileName": "",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "/categories",
+          "title": "Categories"
+        },
+        "description": "",
+        "title": "Categories",
+        "content": ""
+      }]
+    },
+    "tags": {
+      "ownKey": "tags",
+      "childrenPages": {"orchid-news": {
+        "ownKey": "orchid-news",
+        "ownPages": [{
+          "reference": {
+            "path": "tags/orchid-news",
+            "baseUrl": "/",
+            "fileName": "",
+            "extension": "html",
+            "usePrettyUrl": true,
+            "link": "/tags/orchid-news",
+            "title": "Orchid   News"
+          },
+          "description": "",
+          "title": "Orchid   News",
+          "content": ""
+        }]
+      }},
+      "ownPages": [{
+        "reference": {
+          "path": "tags",
+          "baseUrl": "/",
+          "fileName": "",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "/tags",
+          "title": "Tags"
+        },
+        "description": "",
+        "title": "Tags",
+        "content": ""
+      }]
+    }
+  }
+}

@@ -1,0 +1,1997 @@
+
+
+<!DOCTYPE html>
+<html class="">
+<head>
+
+
+
+
+
+
+<meta charset="utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+<meta name="generator" content="Orchid 0.22.0"/>
+<link rel="icon" href="/favicon.ico">
+
+
+<meta name="robots" content="index, follow">
+
+
+
+<title>OrchidTest</title>
+
+
+<meta name="description" content="A framework for testing Orchid plugins.">
+
+
+
+
+
+<!-- start:inject styles -->
+<link rel="stylesheet" type="text/css" href="/Copper/159259fe/assets/css/bulma.css"  />
+<link rel="stylesheet" type="text/css" href="/Copper/159259fe/assets/css/extraCss.css"  />
+<link rel="stylesheet" type="text/css" href="/Copper/159259fe/assets/css/bulma-tooltip.css"  />
+<link rel="stylesheet" type="text/css" href="/Copper/159259fe/assets/css/bulma-accordion.min.css"  />
+<link rel="stylesheet" type="text/css" href="/Copper/159259fe/assets/css/plugins.css"  />
+<link rel="stylesheet" type="text/css" href="/Copper/159259fe/assets/css/extras.css"  />
+<link rel="stylesheet" type="text/css" href="/assets/css/prism-duotone.css"  />
+<link rel="stylesheet" type="text/css" href="/npm/docsearch.js@2/dist/cdn/docsearch.min.css"  />
+<!-- end:inject styles -->
+
+
+
+<script>
+    window.site = {"orchidVersion":"0.22.0","baseUrl":"/","environment":"prod","version":"0.22.0"};
+</script>
+
+
+    <!-- start:inject meta-components [head] -->
+    
+
+        
+            
+        
+
+        
+            
+        
+            
+        
+    
+    <!-- end:inject meta-components [head] -->
+
+
+
+    <!-- start:inject meta-components [head] -->
+    
+    <!-- end:inject meta-components [head] -->
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+
+
+
+    <!-- start:inject meta-components [bodyStart] -->
+    
+
+        
+            
+        
+
+        
+    
+    <!-- end:inject meta-components [bodyStart] -->
+
+
+
+    <!-- start:inject meta-components [bodyStart] -->
+    
+    <!-- end:inject meta-components [bodyStart] -->
+
+
+
+
+
+<div class="columns is-marginless is-desktop">
+
+  <div class="column is-one-third-desktop is-one-quarter-widescreen is-one-fifth-fullhd is-paddingless column-main-left is-hidden-mobile is-hidden-touch">
+  
+
+
+    
+
+
+<section class="hero is-black is-bold is-fullheight">
+
+
+<!-- Hero header: will stick at the top -->
+<div class="hero-head" style="padding: 0 1.5rem">
+  <a href="/"><img src="/assets/svg/orchid/logo_top_dark.svg" style="padding: 40px 40px 0 40px;"></a>
+  <p class="subtitle is-4 has-text-centered">Build and deploy beautiful documentation sites that grow with you</p>
+
+  <div class="columns is-mobile has-text-centered">
+  
+
+
+<div class="column">
+
+  <a class="button is-primary is-fullwidth" href="/wiki/user-manual/getting-started/quickstart">
+    <strong>Quick Start</strong>
+  </a>
+
+</div>
+
+
+
+  
+
+
+<div class="column">
+
+  <a class="button is-light is-fullwidth" href="/wiki/user-manual/getting-started">
+  Documentation
+  </a>
+
+</div>
+
+
+
+  </div>
+</div>
+
+
+
+
+<!-- Hero content: will be in the middle -->
+<div class="hero-body">
+  <div class="container sidebar-menu">
+    <details class="is-hidden-desktop">
+      <summary>
+        Menu
+      </summary>
+      <div id="mobile-sidebar-menu"></div>
+    </details>
+    <div class="is-hidden-touch">
+      <aside class="menu" id="responsive-menu-content">
+      
+  
+  
+    
+<p class="menu-label">All Plugins</p>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidcore 1818951921 -->
+  <a href="/plugins/orchidcore" class="">
+  
+  OrchidCore
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidtest 1209166359 -->
+  <a href="/plugins/orchidtest" class="is-active">
+  
+  OrchidTest
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidchangelog 443824088 -->
+  <a href="/plugins/orchidchangelog" class="">
+  
+  OrchidChangelog
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidforms 1869172855 -->
+  <a href="/plugins/orchidforms" class="">
+  
+  OrchidForms
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidgroovydoc 1529981411 -->
+  <a href="/plugins/orchidgroovydoc" class="">
+  
+  OrchidGroovydoc
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidjavadoc 2630208 -->
+  <a href="/plugins/orchidjavadoc" class="">
+  
+  OrchidJavadoc
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidkotlindoc 995692394 -->
+  <a href="/plugins/orchidkotlindoc" class="">
+  
+  OrchidKotlindoc
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidkss 504760990 -->
+  <a href="/plugins/orchidkss" class="">
+  
+  OrchidKSS
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidnetlifycms 1212077582 -->
+  <a href="/plugins/orchidnetlifycms" class="">
+  
+  OrchidNetlifyCMS
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidpages 163960683 -->
+  <a href="/plugins/orchidpages" class="">
+  
+  OrchidPages
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidplugindocs 2048174950 -->
+  <a href="/plugins/orchidplugindocs" class="">
+  
+  OrchidPluginDocs
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidposts 1417153600 -->
+  <a href="/plugins/orchidposts" class="">
+  
+  OrchidPosts
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidpresentations 1791508071 -->
+  <a href="/plugins/orchidpresentations" class="">
+  
+  OrchidPresentations
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidsearch 1301402330 -->
+  <a href="/plugins/orchidsearch" class="">
+  
+  OrchidSearch
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidsnippets 310452117 -->
+  <a href="/plugins/orchidsnippets" class="">
+  
+  OrchidSnippets
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidsourcedoc 110041993 -->
+  <a href="/plugins/orchidsourcedoc" class="">
+  
+  OrchidSourceDoc
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidswagger 757020217 -->
+  <a href="/plugins/orchidswagger" class="">
+  
+  OrchidSwagger
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidswiftdoc 1851471426 -->
+  <a href="/plugins/orchidswiftdoc" class="">
+  
+  OrchidSwiftdoc
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidtaxonomies 1958539691 -->
+  <a href="/plugins/orchidtaxonomies" class="">
+  
+  OrchidTaxonomies
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidwiki 168947686 -->
+  <a href="/plugins/orchidwiki" class="">
+  
+  OrchidWiki
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidasciidoc 1584119395 -->
+  <a href="/plugins/orchidasciidoc" class="">
+  
+  OrchidAsciidoc
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidbible 1765108426 -->
+  <a href="/plugins/orchidbible" class="">
+  
+  OrchidBible
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchiddiagrams 2048393198 -->
+  <a href="/plugins/orchiddiagrams" class="">
+  
+  OrchidDiagrams
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidsyntaxhighlighter 2147238293 -->
+  <a href="/plugins/orchidsyntaxhighlighter" class="">
+  
+  OrchidSyntaxHighlighter
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidwritersblocks 2095538351 -->
+  <a href="/plugins/orchidwritersblocks" class="">
+  
+  OrchidWritersBlocks
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidazure 1044788931 -->
+  <a href="/plugins/orchidazure" class="">
+  
+  OrchidAzure
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidbitbucket 2070627946 -->
+  <a href="/plugins/orchidbitbucket" class="">
+  
+  OrchidBitbucket
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidgithub 1720078459 -->
+  <a href="/plugins/orchidgithub" class="">
+  
+  OrchidGithub
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidgitlab 555984412 -->
+  <a href="/plugins/orchidgitlab" class="">
+  
+  OrchidGitlab
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidnetlify 777813205 -->
+  <a href="/plugins/orchidnetlify" class="">
+  
+  OrchidNetlify
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    
+<p class="menu-label">All Themes</p>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/themes/orchidbsdoc 254093154 -->
+  <a href="/themes/orchidbsdoc" class="">
+  
+  OrchidBsDoc
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/themes/orchidcopper 1534376821 -->
+  <a href="/themes/orchidcopper" class="">
+  
+  OrchidCopper
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/themes/orchideditorial 1734079809 -->
+  <a href="/themes/orchideditorial" class="">
+  
+  OrchidEditorial
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/themes/orchidfutureimperfect 715949995 -->
+  <a href="/themes/orchidfutureimperfect" class="">
+  
+  OrchidFutureImperfect
+  </a>
+</li>
+
+</ul>
+  
+
+
+      </aside>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  function copyElem(fromId, toId) {
+    var fromElementContent = document.getElementById(fromId);
+    var toElementContent = document.getElementById(toId);
+    toElementContent.outerHTML = fromElementContent.outerHTML;
+  }
+
+  document.addEventListener("DOMContentLoaded", function (event) {
+    copyElem('responsive-menu-content', 'mobile-sidebar-menu');
+  });
+</script>
+
+
+</section>
+
+  </div>
+  <div class="column is-one-third-desktop is-one-quarter-widescreen is-one-fifth-fullhd is-paddingless column-main-left is-hidden-desktop">
+  
+
+
+    
+
+
+<section class="hero is-black is-bold ">
+
+
+<!-- Hero header: will stick at the top -->
+<div class="hero-head" style="padding: 0 1.5rem">
+  <a href="/"><img src="/assets/svg/orchid/logo_top_dark.svg" style="padding: 40px 40px 0 40px;"></a>
+  <p class="subtitle is-4 has-text-centered">Build and deploy beautiful documentation sites that grow with you</p>
+
+  <div class="columns is-mobile has-text-centered">
+  
+
+
+<div class="column">
+
+  <a class="button is-primary is-fullwidth" href="/wiki/user-manual/getting-started/quickstart">
+    <strong>Quick Start</strong>
+  </a>
+
+</div>
+
+
+
+  
+
+
+<div class="column">
+
+  <a class="button is-light is-fullwidth" href="/wiki/user-manual/getting-started">
+  Documentation
+  </a>
+
+</div>
+
+
+
+  </div>
+</div>
+
+
+
+
+<!-- Hero content: will be in the middle -->
+<div class="hero-body">
+  <div class="container sidebar-menu">
+    <details class="is-hidden-desktop">
+      <summary>
+        Menu
+      </summary>
+      <div id="mobile-sidebar-menu"></div>
+    </details>
+    <div class="is-hidden-touch">
+      <aside class="menu" id="responsive-menu-content">
+      
+  
+  
+    
+<p class="menu-label">All Plugins</p>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidcore 1818951921 -->
+  <a href="/plugins/orchidcore" class="">
+  
+  OrchidCore
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidtest 1209166359 -->
+  <a href="/plugins/orchidtest" class="is-active">
+  
+  OrchidTest
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidchangelog 443824088 -->
+  <a href="/plugins/orchidchangelog" class="">
+  
+  OrchidChangelog
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidforms 1869172855 -->
+  <a href="/plugins/orchidforms" class="">
+  
+  OrchidForms
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidgroovydoc 1529981411 -->
+  <a href="/plugins/orchidgroovydoc" class="">
+  
+  OrchidGroovydoc
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidjavadoc 2630208 -->
+  <a href="/plugins/orchidjavadoc" class="">
+  
+  OrchidJavadoc
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidkotlindoc 995692394 -->
+  <a href="/plugins/orchidkotlindoc" class="">
+  
+  OrchidKotlindoc
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidkss 504760990 -->
+  <a href="/plugins/orchidkss" class="">
+  
+  OrchidKSS
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidnetlifycms 1212077582 -->
+  <a href="/plugins/orchidnetlifycms" class="">
+  
+  OrchidNetlifyCMS
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidpages 163960683 -->
+  <a href="/plugins/orchidpages" class="">
+  
+  OrchidPages
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidplugindocs 2048174950 -->
+  <a href="/plugins/orchidplugindocs" class="">
+  
+  OrchidPluginDocs
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidposts 1417153600 -->
+  <a href="/plugins/orchidposts" class="">
+  
+  OrchidPosts
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidpresentations 1791508071 -->
+  <a href="/plugins/orchidpresentations" class="">
+  
+  OrchidPresentations
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidsearch 1301402330 -->
+  <a href="/plugins/orchidsearch" class="">
+  
+  OrchidSearch
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidsnippets 310452117 -->
+  <a href="/plugins/orchidsnippets" class="">
+  
+  OrchidSnippets
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidsourcedoc 110041993 -->
+  <a href="/plugins/orchidsourcedoc" class="">
+  
+  OrchidSourceDoc
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidswagger 757020217 -->
+  <a href="/plugins/orchidswagger" class="">
+  
+  OrchidSwagger
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidswiftdoc 1851471426 -->
+  <a href="/plugins/orchidswiftdoc" class="">
+  
+  OrchidSwiftdoc
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidtaxonomies 1958539691 -->
+  <a href="/plugins/orchidtaxonomies" class="">
+  
+  OrchidTaxonomies
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidwiki 168947686 -->
+  <a href="/plugins/orchidwiki" class="">
+  
+  OrchidWiki
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidasciidoc 1584119395 -->
+  <a href="/plugins/orchidasciidoc" class="">
+  
+  OrchidAsciidoc
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidbible 1765108426 -->
+  <a href="/plugins/orchidbible" class="">
+  
+  OrchidBible
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchiddiagrams 2048393198 -->
+  <a href="/plugins/orchiddiagrams" class="">
+  
+  OrchidDiagrams
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidsyntaxhighlighter 2147238293 -->
+  <a href="/plugins/orchidsyntaxhighlighter" class="">
+  
+  OrchidSyntaxHighlighter
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidwritersblocks 2095538351 -->
+  <a href="/plugins/orchidwritersblocks" class="">
+  
+  OrchidWritersBlocks
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidazure 1044788931 -->
+  <a href="/plugins/orchidazure" class="">
+  
+  OrchidAzure
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidbitbucket 2070627946 -->
+  <a href="/plugins/orchidbitbucket" class="">
+  
+  OrchidBitbucket
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidgithub 1720078459 -->
+  <a href="/plugins/orchidgithub" class="">
+  
+  OrchidGithub
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidgitlab 555984412 -->
+  <a href="/plugins/orchidgitlab" class="">
+  
+  OrchidGitlab
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/plugins/orchidnetlify 777813205 -->
+  <a href="/plugins/orchidnetlify" class="">
+  
+  OrchidNetlify
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    
+<p class="menu-label">All Themes</p>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/themes/orchidbsdoc 254093154 -->
+  <a href="/themes/orchidbsdoc" class="">
+  
+  OrchidBsDoc
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/themes/orchidcopper 1534376821 -->
+  <a href="/themes/orchidcopper" class="">
+  
+  OrchidCopper
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/themes/orchideditorial 1734079809 -->
+  <a href="/themes/orchideditorial" class="">
+  
+  OrchidEditorial
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=/themes/orchidfutureimperfect 715949995 -->
+  <a href="/themes/orchidfutureimperfect" class="">
+  
+  OrchidFutureImperfect
+  </a>
+</li>
+
+</ul>
+  
+
+
+      </aside>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  function copyElem(fromId, toId) {
+    var fromElementContent = document.getElementById(fromId);
+    var toElementContent = document.getElementById(toId);
+    toElementContent.outerHTML = fromElementContent.outerHTML;
+  }
+
+  document.addEventListener("DOMContentLoaded", function (event) {
+    copyElem('responsive-menu-content', 'mobile-sidebar-menu');
+  });
+</script>
+
+
+</section>
+
+  </div>
+
+  <div class="column is-two-thirds-desktop is-three-quarters-widescreen is-four-fifths-fullhd is-paddingless column-main-right">
+  
+
+<nav
+  class="navbar is-white border-bottom"
+  role="navigation"
+  aria-label="main navigation"
+>
+  <div class="container">
+    <div class="navbar-brand is-marginless">
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu is-marginless" id="navbarMain">
+      <div class="navbar-start">
+      
+<div class="navbar-item">
+  <form id="search-input" data-orchid-search>
+    <div class="field is-marginless" id="search">
+      <div class="control has-icons-left input-control">
+        <input class="input" type="text" name="query" placeholder="Search Orchid">
+
+        <span class="icon is-small is-left">
+          <i class="fas fa-search"></i>
+        </span>
+
+        <div id="search-progress" data-orchid-search-progress style="display: none;">
+          <div class="loader">Loading...</div>
+        </div>
+      </div>
+    </div>
+    <div id="search-results" data-orchid-search-results style="display: none;">
+      <div class="carat"></div>
+      <b>
+        Search Results
+        <i class="fa fa-times" aria-hidden="true" onclick="$('[data-orchid-search-results]').hide()"></i>
+      </b>
+      <ul></ul>
+    </div>
+  </form>
+</div>
+
+      
+
+  
+  
+    
+
+<a class="navbar-item " href="/plugins">
+Plugins
+</a>
+
+
+  
+
+  
+  
+    
+
+<a class="navbar-item " href="/themes">
+Themes
+</a>
+
+
+  
+
+  
+  
+    
+
+<a class="navbar-item " href="/wiki/learn">
+Tutorials
+</a>
+
+
+  
+
+  
+  
+    
+
+<a class="navbar-item " href="/showcase">
+Showcase
+</a>
+
+
+  
+
+
+      </div>
+
+      <div class="navbar-end">
+      
+
+<div class="navbar-item social-item">
+  <a class="icon" href="/" title="Home">
+    <i class="fas fa-home"></i>
+  </a>
+</div>
+
+<div class="navbar-item social-item">
+  <a class="icon" href="https://github.com/orchid-revival/Orchid" title="Github">
+    <i class="fab fa-github"></i>
+  </a>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+    <div class="textured container" style="width: 100%;">
+    
+    
+    
+    
+      <div class="box">
+      
+<nav class="breadcrumb" aria-label="breadcrumbs">
+<ul>
+
+
+    <li><a href="/plugins">Plugins</a></li>
+
+
+
+    <li class="is-active"><a href="/plugins/orchidtest" aria-current="page">OrchidTest</a></li>
+
+
+</ul>
+</nav>
+
+
+      </div>
+    
+    
+    
+
+    
+    
+      <article style="position: relative; margin-top: 60px; margin-bottom: 60px;" role="main">
+      
+      
+      
+      
+<h2 class="title is-1 is-spaced">OrchidTest</h2>
+<p class="subtitle is-4">A framework for testing Orchid plugins.</p>
+
+        <hr>
+      
+      
+      
+
+<div class="columns">
+  <div class="column is-three-quarters-desktop">
+  
+    <!-- start:inject components -->
+    
+        
+            
+                
+                    
+                        <div class="content is-medium-tablet is-large-fullhd">
+<h2 id="about"><a href="#about" id="about" class="anchor"></a>About</h2>
+<p>The OrchidTest plugin helps you develop your own components for Orchid by providing a framework for integration-testing
+Orchid modules and a set of assertions to check what was rendered. This framework is intended to be used with
+<a href="https://junit.org/junit5/docs/current/user-guide/">JUnit5</a>, with assertions built on the <a href="https://strikt.io/">Strikt</a>
+assertion library and <a href="https://github.com/Kotlin/kotlinx.html">kotlinx.html</a>.</p>
+<h2 id="installation"><a href="#installation" id="installation" class="anchor"></a>Installation</h2>
+<div class="tabs">
+  <ul data-tabs="gDtuf9rzIQ">
+  
+    <li class="is-active"><a>Gradle</a></li>
+  
+    <li ><a>Maven</a></li>
+  
+    <li ><a>SBT</a></li>
+  
+    <li ><a>KScript</a></li>
+  
+  </ul>
+</div>
+<div data-panes="gDtuf9rzIQ">
+
+  <div class="is-block tab-hidden content is-medium-tablet is-large-fullhd"><pre><code class="language-kotlin">dependencies {
+    orchidRuntime(&quot;io.github.javaeden.orchid:OrchidTest:0.22.0&quot;)
+}
+</code></pre></div>
+
+  <div class=" tab-hidden content is-medium-tablet is-large-fullhd"><pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;io.github.javaeden.orchid&lt;/groupId&gt;
+    &lt;artifactId&gt;OrchidTest&lt;/artifactId&gt;
+    &lt;version&gt;0.22.0&lt;/version&gt;
+    &lt;type&gt;pom&lt;/type&gt;
+&lt;/dependency&gt;
+</code></pre></div>
+
+  <div class=" tab-hidden content is-medium-tablet is-large-fullhd"><pre><code class="language-scala">libraryDependencies += &quot;io.github.javaeden.orchid&quot; % &quot;OrchidTest&quot; % &quot;0.22.0&quot;
+</code></pre></div>
+
+  <div class=" tab-hidden content is-medium-tablet is-large-fullhd"><pre><code class="language-kotlin">@file:DependsOn(&quot;io.github.javaeden.orchid:OrchidTest:0.22.0&quot;)
+</code></pre></div>
+
+</div>
+<h2 id="demo"><a href="#demo" id="demo" class="anchor"></a>Demo</h2>
+<p>All of Orchid's official plugins are tested with this framework. See any of the tests in the main Orchid repo for demos.</p>
+<h2 id="usage"><a href="#usage" id="usage" class="anchor"></a>Usage</h2>
+<h3 id="basic-usage"><a href="#basic-usage" id="basic-usage" class="anchor"></a>Basic Usage</h3>
+<p>An OrchidTest integration test is a standard JUnit5 class that extends <code>OrchidIntegrationTest</code>. The <code>OrchidModule</code>s
+under test should be passed to the superclass constructor. Tests are regular <code>@Test</code>-annotated functions, in which you
+will set up with mock resources and run Orchid, and then make assertions on the pages that were rendered and the
+contents of those pages.</p>
+<pre><code class="language-kotlin">class CustomPluginTest : OrchidIntegrationTest(
+    withGenerator&lt;HomepageGenerator&gt;(),
+    CustomPluginModule()
+) {
+
+    @Test
+    fun test01() {
+        ...
+    }
+}
+</code></pre>
+<p>Each test function typically consists of 3 sections:</p>
+<ol>
+<li>Arrange test resources and configurations</li>
+<li>Execute test to perform an Orchid build</li>
+<li>Assert which pages were rendered, and the contents of those pages</li>
+</ol>
+<h3 id="arrange-test-resources-and-configurations"><a href="#arrange-test-resources-and-configurations" id="arrange-test-resources-and-configurations" class="anchor"></a>Arrange test resources and configurations</h3>
+<p>Use the <code>resource()</code> function to add resources to your test, which work exactly the same as if you were adding a
+file to your site's local resources. The first argument is the full file path and name, and the second is the raw
+contents of that page, typically as a Kotlin
+<a href="https://kotlinlang.org/docs/reference/basic-types.html#string-literals">multiline string</a>.</p>
+<p>You can also add options to the <code>config.yml</code> with the <code>config { }</code> DSL. It accepts a DSL json object builder, and values
+are added to the map with <code>&quot;key&quot; to [value]</code> syntax. Json array builders use a syntax of <code>this add [value]</code>. Valid
+values for both object or array builders are <code>String</code>, <code>Int</code>, <code>Double</code>, or <code>Boolean</code>, but you can also nest <code>obj { }</code> or
+<code>arr { }</code> blocks to create nested json structures.</p>
+<p>Finally, you can pass command-line flags to the test build <code>flag()</code>.</p>
+<pre><code class="language-kotlin">@Test
+fun test01() {
+    resource(
+        &quot;homepage.md&quot;, 
+        &quot;&quot;&quot;
+        |## Homepage Title
+        |
+        |- List item 1
+        |- List item 2
+        |- List item 3
+        &quot;&quot;&quot;.trimMargin()
+    )
+    config {
+        &quot;wiki&quot; to obj {
+            &quot;sections&quot; to arr {
+                this add &quot;section1&quot;
+                this add &quot;section2&quot;
+            }   
+        }
+    }
+    flag(&quot;legacySourceDoc&quot;, &quot;true&quot;)
+    
+    ...
+}
+</code></pre>
+<h3 id="execute-test"><a href="#execute-test" id="execute-test" class="anchor"></a>Execute test</h3>
+<p>Calling <code>execute()</code> within a test function will run a complete Orchid build with the configured resources and options.
+It will run the build to completion and return an object with the results of the build, or else will throw an exception
+if the build failed, failing the test as well. This method call is typically placed directly with <code>expectThat()</code> for
+convenience in writing assertions.</p>
+<pre><code class="language-kotlin">@Test
+fun test01() {
+    ...
+    
+    expectThat(execute())
+    
+    ...
+}
+</code></pre>
+<h3 id="assert-build-results"><a href="#assert-build-results" id="assert-build-results" class="anchor"></a>Assert Build Results</h3>
+<p>You will typically want to make assertions on which pages were rendered in the site. The following functions are
+available on the test results builder:</p>
+<ul>
+<li><code>printResults()</code> - Make no assertions, but print all rendered pages to the terminal for quick debugging.</li>
+<li><code>somethingRendered()</code> - Assert that at least one file was rendered</li>
+<li><code>nothingRendered()</code> - Assert that no files were rendered</li>
+<li><code>pagesGenerated(size: Int)</code> - Assert that a specific number of pages were rendered</li>
+<li><code>pageWasRendered()</code> - Assert that a file at the provided path was rendered</li>
+<li><code>pageWasNotRendered()</code> - Assert that a file at the provided path was <em>not</em> rendered</li>
+<li><code>nothingElseRendered()</code> - Each call to <code>pageWasRendered()</code> marks a page as rendered. Calling <code>nothingElseRendered()</code>
+after all appropriate calls to <code>pageWasRendered()</code> will assert that all rendered pages have been evaluated, to make
+sure additional pages were not rendered unintentionally.</li>
+</ul>
+<p>In addition to checking which <em>pages</em> were rendered, you may wish to make assertions on the collections that were
+created. The following functions are available:</p>
+<ul>
+<li><code>collectionWasCreated()</code> - Assert that a collection with the given <code>collectionType</code> and <code>collectionId</code> was created</li>
+<li><code>noOtherCollectionsCreated()</code> - Similar to <code>nothingElseRendered()</code>, except that it checks whether all collections have
+been evaluated.</li>
+</ul>
+<p>For each call to <code>pageWasRendered()</code>, you must provide an assertion lambda on the located page object. Most commonly,
+you will call <code>htmlBodyMatches()</code> in that callback and provide a <code>Kotlinx.html</code> DOM builder to match the HTML body
+contents. You may also call <code>htmlHeadMatches()</code> to match a DOM builder against the page <code>HEAD</code> contents.</p>
+<p>These DOM builders are flexible in the order that attributes are listed on each tag, and recursively checks all nested
+HTML structures for equivalence. You can also pass a selector to these methods to match the DOM builder against a
+specific selector on the page.</p>
+<pre><code class="language-kotlin">@Test
+fun test1() {
+    ...
+    
+    expectThat(execute())
+        .printResults()
+        .pageWasRendered(&quot;/index.html&quot;) {
+            htmlBodyMatches(&quot;article[role=main]&quot;) {
+                h2 {
+                    +&quot;Homepage Title&quot;
+                }
+                ul {
+                    li { +&quot;List item 1&quot; }
+                    li { +&quot;List item 2&quot; }
+                    li { +&quot;List item 3&quot; }
+                }
+            }
+        }
+        .nothingElseRendered()
+}
+</code></pre>
+
+
+</div>
+
+                    
+                
+            
+        
+    
+    <!-- end:inject components -->
+
+
+  </div>
+  
+    <div class="column is-one-quarter is-hidden-touch">
+      <div class="sticky-menu" style="position: sticky; top: 30px;">
+  
+  
+    
+<p class="menu-label">In This Page</p>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=  -->
+  <a href="#about" class="">
+  
+  About
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=  -->
+  <a href="#installation" class="">
+  
+  Installation
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    <ul class="menu-list">
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=  -->
+  <a href="#demo" class="">
+  
+  Demo
+  </a>
+</li>
+
+</ul>
+  
+
+  
+  
+    
+<ul class="menu-list">
+
+  
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=  -->
+  <a href="#usage" class="">
+  
+  Usage
+  </a>
+</li>
+
+
+
+  <li>
+    <ul>
+    
+      
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=  -->
+  <a href="#basic-usage" class="">
+  
+  Basic Usage
+  </a>
+</li>
+
+
+    
+      
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=  -->
+  <a href="#arrange-test-resources-and-configurations" class="">
+  
+  Arrange test resources and configurations
+  </a>
+</li>
+
+
+    
+      
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=  -->
+  <a href="#execute-test" class="">
+  
+  Execute test
+  </a>
+</li>
+
+
+    
+      
+
+<li>
+  <!-- page=/plugins/orchidtest 1209166359 -->
+  <!-- menuItem.page=  -->
+  <a href="#assert-build-results" class="">
+  
+  Assert Build Results
+  </a>
+</li>
+
+
+    
+    </ul>
+  </li>
+</ul>
+
+  
+
+</div>
+    </div>
+  
+</div>
+
+      
+      </article>
+    
+      <div class="grow"></div>
+      <div class="page-footer">
+      
+        <nav class="pagination is-rounded footer-pagination" role="navigation" aria-label="pagination">
+
+  <a class="pagination-previous" disabled>
+    <span class="inner">
+      <span class="icon"><i class="fas fa-chevron-left"></i></span>
+      Previous
+    </span>
+  </a>
+
+
+
+  <a class="pagination-next" disabled>
+    <span class="inner">
+      Next
+      <span class="icon"><i class="fas fa-chevron-right"></i></span>
+    </span>
+  </a>
+
+</nav>
+
+<footer class="footer border-top">
+  <div class="content is-small">
+  <div class="columns is-mobile">
+  <div class="column has-text-left">
+    <p>&copy; 2017-2021 Orchid</p>
+    <p>Site proudly built with <a href="https://orchid.run/">Orchid</a>.<br></p>
+  </div>
+  <div class="column has-text-right is-hidden-mobile">
+    <a href="https://github.com/orchidhq/orchid" style="margin-right: 10px;"><i class="fa fab fa-github"></i>
+      orchidhq/orchid</a>
+    <a href="https://twitter.com/OrchidSSG" style="margin-right: 10px;"><i class="fa fab fa-twitter"></i> @OrchidSSG</a>
+  </div>
+  <div class="column has-text-right is-hidden-tablet">
+    <p>
+      <a href="https://github.com/orchidhq/orchid" style="margin-right: 10px;"><i class="fa fab fa-github"></i>
+        orchidhq/orchid</a>
+    </p>
+    <p>
+      <a href="https://twitter.com/OrchidSSG" style="margin-right: 10px;"><i class="fa fab fa-twitter"></i> @OrchidSSG</a>
+    </p>
+  </div>
+</div>
+
+<p>
+  <b>See Also:</b>
+</p>
+<p>
+  <span class="tag is-light"><a href="https://orchid.run/">Orchid</a></span>
+  <span class="tag is-light"><a href="https://javaeden.github.io/Clog/">Clog</a></span>
+  <span class="tag is-light"><a href="https://copper-leaf.github.io/krow/">Krow</a></span>
+  <span class="tag is-light"><a href="https://copper-leaf.github.io/kudzu/">Kudzu</a></span>
+  <span class="tag is-light"><a href="https://copper-leaf.github.io/trellis/">Trellis</a></span>
+  <span class="tag is-light"><a href="https://copper-leaf.github.io/kodiak/">Kodiak</a></span>
+</p>
+
+  </div>
+</footer>
+
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+    <!-- start:inject meta-components [bodyEnd] -->
+    
+
+        
+            
+        
+
+        
+    
+    <!-- end:inject meta-components [bodyEnd] -->
+
+
+
+    <!-- start:inject meta-components [bodyEnd] -->
+    
+    <!-- end:inject meta-components [bodyEnd] -->
+
+
+
+
+<!-- start:inject scripts -->
+<script defer data-search-pseudo-elements="true" src="/Copper/159259fe/releases/v5.4.0/js/all.js"></script>
+<script  src="/Copper/159259fe/assets/js/bulma.js"></script>
+<script  src="/Copper/159259fe/assets/js/bulma-accordion.min.js"></script>
+<script  src="/Copper/159259fe/assets/js/bulma-tabs.js"></script>
+<script  src="/Copper/159259fe/assets/js/simpleFilter.js"></script>
+<script  src="/ajax/libs/prism/1.17.1/prism.min.js"></script>
+<script  src="/ajax/libs/prism/1.17.1/components/prism-clike.min.js"></script>
+<script  src="/ajax/libs/prism/1.17.1/components/prism-markup-templating.min.js"></script>
+<script  src="/ajax/libs/prism/1.17.1/components/prism-kotlin.min.js"></script>
+<script  src="/ajax/libs/prism/1.17.1/components/prism-java.min.js"></script>
+<script  src="/ajax/libs/prism/1.17.1/components/prism-groovy.min.js"></script>
+<script  src="/ajax/libs/prism/1.17.1/components/prism-yaml.min.js"></script>
+<script  src="/ajax/libs/prism/1.17.1/components/prism-asciidoc.min.js"></script>
+<script  src="/ajax/libs/prism/1.17.1/components/prism-markdown.min.js"></script>
+<script  src="/ajax/libs/prism/1.17.1/components/prism-twig.min.js"></script>
+<script  src="/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+<script >
+
+docsearch({
+    apiKey: 'f597b0a7c1080757a60853addd344aaf',
+    indexName: 'orchid',
+    
+    inputSelector: 'form[data-orchid-search] input[name=query]',
+    debug: false,
+});
+</script>
+<!-- end:inject scripts -->
+
+
+</body>
+</html>
