@@ -19,16 +19,17 @@ jobs:
       - name: Publish package
         run: |
           ./gradlew assemble publishToMavenLocal publish -PorchidEnvironment=prod -Prelease
-          ./gradlew publishPlugins -b buildSrc/orchidPlugin/build.gradle.kts -PorchidEnvironment=prod -Prelease
+          ./gradlew publishPlugins -b buildSrc/orchidPlugin/build.gradle.kts -PorchidEnvironment=prod -Prelease -Pversion=$PROJECT_VERSION
         env:
           MAVEN_USERNAME: ${{secrets.OSSRH_USERNAME }}
           MAVEN_PASSWORD: ${{secrets.OSSRH_TOKEN }}
+          PROJECT_VERSION: ${{ github.event.release.tag_name }}
       - name: Publish maven
         run: |
-          export GRADLE_PROJECT_RELEASE_NAME=$(./gradlew getReleaseName -Prelease --quiet)
           cd buildSrc/orchidMavenPlugin
-          ./mvnw versions:set -DnewVersion=$GRADLE_PROJECT_RELEASE_NAME
+          ./mvnw versions:set -DnewVersion=$PROJECT_VERSION
           ./mvnw deploy
         env:
           MAVEN_USERNAME: ${{secrets.OSSRH_USERNAME }}
           MAVEN_PASSWORD: ${{secrets.OSSRH_TOKEN }}
+          PROJECT_VERSION: ${{ github.event.release.tag_name }}

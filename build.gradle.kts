@@ -17,7 +17,7 @@ plugins {
     jacoco
     id("de.fayard.buildSrcVersions") version "0.7.0"
 }
-apply(from = "$rootDir/gradle/semver.gradle.kts")
+
 apply(from = "$rootDir/gradle/actions/repositories.gradle")
 
 //val delegate: org.gradle.kotlin.dsl.support.delegates.ProjectDelegate = this
@@ -27,11 +27,6 @@ buildSrcVersions {
     versionsOnlyMode = null
     versionsOnlyFile = null
 }
-
-// Add check to make sure every release version has a Changelog file
-//----------------------------------------------------------------------------------------------------------------------
-val check by tasks
-check.dependsOn("checkForChangelogFile")
 
 val archiveDocumentation by tasks.registering(Zip::class) {
     from("${project(":docs").buildDir}/docs/orchid")
