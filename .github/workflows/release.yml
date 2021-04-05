@@ -18,7 +18,7 @@ jobs:
           java-version: 8
       - name: Publish package
         run: |
-          ./gradlew assemble publishToMavenLocal publish -PorchidEnvironment=prod -Prelease
+          ./gradlew assemble publishToMavenLocal publish -PorchidEnvironment=prod -Prelease -Pversion=$PROJECT_VERSION
           ./gradlew publishPlugins -b buildSrc/orchidPlugin/build.gradle.kts -PorchidEnvironment=prod -Prelease -Pversion=$PROJECT_VERSION
         env:
           MAVEN_USERNAME: ${{secrets.OSSRH_USERNAME }}
