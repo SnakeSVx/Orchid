@@ -5,13 +5,10 @@ plugins {
 
 allprojects {
     apply(from = "${rootProject.rootDir}/../gradle/actions/repositories.gradle")
+    apply(from = "${rootProject.rootDir}/../gradle/actions/publish.gradle")
 }
 
 group = "io.github.orchid-revival"
-
-tasks.create("publishPlugins") {
-    doLast {}
-}
 
 dependencies {
     runtimeOnly(project(":orchidPlugin"))
