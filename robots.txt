@@ -4,5 +4,5 @@ Disallow: /meta/
 
 
 
-Sitemap: /sitemap.xml
+Sitemap: https://orchid-revival.github.io/Orchid/sitemap.xml
 

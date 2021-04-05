@@ -4,12 +4,12 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>/rss.xml</loc>
+        <loc>https://orchid-revival.github.io/Orchid/rss.xml</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/atom.xml</loc>
+        <loc>https://orchid-revival.github.io/Orchid/atom.xml</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>

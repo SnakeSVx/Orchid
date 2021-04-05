@@ -4,192 +4,192 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>/plugins/orchidcore</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidcore</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidtest</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidtest</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidchangelog</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidchangelog</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidforms</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidforms</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidgroovydoc</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidgroovydoc</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidjavadoc</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidjavadoc</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidkotlindoc</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidkotlindoc</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidkss</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidkss</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidnetlifycms</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidnetlifycms</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidpages</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidpages</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidplugindocs</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidplugindocs</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidposts</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidposts</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidpresentations</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidpresentations</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidsearch</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidsearch</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidsnippets</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidsnippets</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidsourcedoc</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidsourcedoc</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidswagger</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidswagger</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidswiftdoc</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidswiftdoc</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidtaxonomies</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidtaxonomies</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidwiki</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidwiki</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidasciidoc</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidasciidoc</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidbible</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidbible</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchiddiagrams</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchiddiagrams</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidsyntaxhighlighter</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidsyntaxhighlighter</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidwritersblocks</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidwritersblocks</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidazure</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidazure</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidbitbucket</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidbitbucket</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidgithub</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidgithub</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidgitlab</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidgitlab</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/plugins/orchidnetlify</loc>
+        <loc>https://orchid-revival.github.io/Orchid/plugins/orchidnetlify</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/themes/orchidbsdoc</loc>
+        <loc>https://orchid-revival.github.io/Orchid/themes/orchidbsdoc</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/themes/orchidcopper</loc>
+        <loc>https://orchid-revival.github.io/Orchid/themes/orchidcopper</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/themes/orchideditorial</loc>
+        <loc>https://orchid-revival.github.io/Orchid/themes/orchideditorial</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/themes/orchidfutureimperfect</loc>
+        <loc>https://orchid-revival.github.io/Orchid/themes/orchidfutureimperfect</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/bundles/orchidall</loc>
+        <loc>https://orchid-revival.github.io/Orchid/bundles/orchidall</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/bundles/orchidblog</loc>
+        <loc>https://orchid-revival.github.io/Orchid/bundles/orchidblog</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/bundles/orchiddocs</loc>
+        <loc>https://orchid-revival.github.io/Orchid/bundles/orchiddocs</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>/bundles/orchidlanguagepack</loc>
+        <loc>https://orchid-revival.github.io/Orchid/bundles/orchidlanguagepack</loc>
         <lastmod>2021-04-05</lastmod>
         <priority>0.5</priority>
     </url>
